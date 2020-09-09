@@ -35,7 +35,7 @@ const records = (state = initialState, action) => {
               $push: action.peerCount
             }
           }        
-        )}
+        })
       }
 
     case 'REMOVE_RECORD':
